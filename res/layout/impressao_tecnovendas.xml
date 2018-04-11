@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/edNomeImpressora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/listArquivos"
+        android:layout_width="match_parent"
+        android:layout_height="640dp"
+        android:layout_weight="0.73" >
+    </ListView>
+
+    <Button
+        android:id="@+id/btImprimir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Imprimir" />
+
+    <Button
+        android:id="@+id/btImprimirUltimo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Imprimir Último" />
+
+</LinearLayout>
